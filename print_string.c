@@ -19,5 +19,5 @@ int print_string (char *str)
       putchar(str[i++]);
  
     }
-  return (str);
+  return (i);
 }
