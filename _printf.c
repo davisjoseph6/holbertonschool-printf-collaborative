@@ -47,7 +47,7 @@ int _printf(const char *format, ...)
               {
               }
   }
-      format++; // Move to the next character in the format string
+      format++;
     }
   va_end(args);
   return count;
