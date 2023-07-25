@@ -1,7 +1,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 #include <unistd.h>
-
+#include "main.h"
 
 
 
@@ -12,7 +12,7 @@ int _printf(const char *format, ...)
   int count = 0;
   va_list args;
   va_start(args, format);
-  if (!format || !format[0]) // check if the format is NULL or empty
+  if (!format || !format[0]) 
         return -1;
   while (*format != '\0')
         {
@@ -23,7 +23,7 @@ int _printf(const char *format, ...)
       }
       else
       {
-     format++; // Skip to access the next character after the % symbol
+     format++; 
                if (*format == 'c')
                {
                char c = va_arg(args, int);
