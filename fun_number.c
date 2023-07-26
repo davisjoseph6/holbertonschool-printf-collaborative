@@ -3,9 +3,14 @@ int len_number(int num)
 {
   int i = 0;
 
+
   if (num == 0)
     return 1;
   
+
+  if (num == 0)
+    return 1;
+
 
   if (num < 0) {
     i++;
