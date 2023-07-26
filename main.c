@@ -14,6 +14,8 @@ int main(void)
   unsigned int ui;
   void *addr;
 
+  setbuf(stdout, 0);
+
   len = _printf("welcome to holberton school.\n");
   len2 = printf("welcome to holberton school.\n");
   ui = (unsigned int)INT_MAX + 1024;
