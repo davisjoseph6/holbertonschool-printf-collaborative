@@ -1,19 +1,23 @@
-int len_number(int num) {
+#include "main.h"
+int len_number(int num)
+{
+  
   if (num == 0)
     return 1;
-  int count = 0;
+  int i = 0;
   if (num < 0) {
-    count++;
+    i++;
     num = -num;
   }
   while (num > 0) {
-    count++;
+    i++;
     num /= 10;
   }
-  return count;
+  return i;
 }
 
-void fun_number(int num) {
+void fun_number(int num)
+{
   if (num == -2147483648) {
     _putchar('-');
     _putchar('2');
