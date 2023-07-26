@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 int len_number(int num)
 {
   int i = 0;
