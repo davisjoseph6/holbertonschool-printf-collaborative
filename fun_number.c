@@ -1,9 +1,12 @@
 #include "main.h"
 int len_number(int num)
 {
+  int i = 0;
+
   if (num == 0)
     return 1;
-  int i = 0;
+  
+
   if (num < 0) {
     i++;
     num = -num;
