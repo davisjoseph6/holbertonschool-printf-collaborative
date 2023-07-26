@@ -1,7 +1,6 @@
 #include "main.h"
 int len_number(int num)
 {
-  
   if (num == 0)
     return 1;
   int i = 0;
@@ -15,7 +14,6 @@ int len_number(int num)
   }
   return i;
 }
-
 void fun_number(int num)
 {
   if (num == -2147483648) {
