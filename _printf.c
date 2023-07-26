@@ -18,8 +18,8 @@ int _printf(const char *format, ...)
         {
       if (*format != '%')
        {
-       _putchar(*format);
-       count++;
+       count += _putchar(*format);
+
       }
       else
       {
@@ -37,16 +37,22 @@ int _printf(const char *format, ...)
               }
               else if  (*format == '%')
               {
-                 _putchar('%');
-                   count++;
+               
+              count += _putchar(*format);
               }
-               else if  (*format == 'd')
+              else if (*format == 'd' || *format == 'i')
               {
+                {
+	          int num = va_arg(args, int);
+	          count += len_number(num);
+	          fun_number(num);
+                }
               }
-               else if  (*format == 'u')
-              {
-              }
-  }
+             else
+             {
+             count += _putchar(*format);
+	     }
+      }
       format++;
     }
   va_end(args);
