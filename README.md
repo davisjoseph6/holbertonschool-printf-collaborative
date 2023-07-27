@@ -36,6 +36,7 @@ Include the header file `main.h` in your C source file, and compile the source f
 
 The _printf function will print the formatted output to the standard output (usually the terminal/console).
 
+The provided code is a custom implementation of the _printf function, but it's missing the definitions for some of the helper functions, such as `_putchar`, `print_string`, `len_number`, `fun_number`, `len_unsigned_number`, `fun_unsigned_number`, `len_octal_number`, and `fun_octal_number`. To make the code complete and functional, you need to provide the implementations for these functions.
 
 ## `Function Signature`
 * ``` int _printf(const char *format, ...);```
