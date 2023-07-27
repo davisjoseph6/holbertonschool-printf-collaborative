@@ -41,12 +41,12 @@ The _printf function will print the formatted output to the standard output (usu
 
 The _printf function supports the following format specifiers:
 
-%c: Used for printing a single character.
-%s: Used for printing a null-terminated string.
-%d: %i: Used for printing signed decimal integers.
-%u: Used for printing unsigned decimal integers.
-%o: Used for printing unsigned octal integers.
-%%: Used to print a literal % character.
+- `%c`: Used for printing a single character.
+- `%s`: Used for printing a null-terminated string.
+- `%d: %i`: Used for printing signed decimal integers.
+- `%u`: Used for printing unsigned decimal integers.
+- `%o` Used for printing unsigned octal integers.
+- `%%`Used to print a literal % character.
 
 
 ## About Functions
