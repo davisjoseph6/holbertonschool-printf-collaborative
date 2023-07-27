@@ -32,18 +32,21 @@ Call the _printf function in your C code, providing the desired format string an
 
 The _printf function will print the formatted output to the standard output (usually the terminal/console).
 
+
 ## `Function Signature`
+* ``` int _printf(const char *format, ...);```
 
-int _printf(const char *format, ...);
--Format Specifiers
--The _printf function supports the following format specifiers:
+## `Format Specifiers`
 
--%c`: Used for printing a single character.
--%s`: Used for printing a null-terminated string.
--%d`: %i: Used for printing signed decimal integers.
--%u`: Used for printing unsigned decimal integers.
--%o`: Used for printing unsigned octal integers.
--%%`: Used to print a literal % character.
+
+##The _printf function supports the following format specifiers:
+
+##%c`: Used for printing a single character.
+##%s`: Used for printing a null-terminated string.
+##%d`: %i: Used for printing signed decimal integers.
+##%u`: Used for printing unsigned decimal integers.
+##%o`: Used for printing unsigned octal integers.
+##%%`: Used to print a literal % character.
 
 
 ## About Functions
