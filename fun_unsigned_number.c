@@ -2,10 +2,10 @@
 
 int len_unsigned_number(unsigned int num)
 {
+  int count = 0;
     if (num == 0)
         return 1;
-    int count = 0;
-    while (num > 0) {
+       while (num > 0) {
         count++;
         num /= 10;
     }
