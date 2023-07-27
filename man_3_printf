@@ -55,7 +55,7 @@ String:[Welcome to Holberton School!]
 Character:[H]
 Number of bytes: 1024
 Unsigned integer:12345
-Octal:12345
+Octal:30071
 .RE
 .fi
 .PP
