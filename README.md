@@ -1,6 +1,8 @@
 # The awesome _printf() function
 
-![printf](https://github.com/idoudi2020/holbertonschool-printf/assets/124044887/75705fa9-c22e-4afa-b5dd-3b931ac3e3c6)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/124044887/256537628-75705fa9-c22e-4afa-b5dd-3b931ac3e3c6.jpeg"/>
+       </p>
 
 
 **_printf** - formatted output conversion
