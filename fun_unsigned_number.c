@@ -1,5 +1,13 @@
 #include "main.h"
 
+/**
+ * 
+ * 
+ *
+ * 
+ * 
+ */
+
 int len_unsigned_number(unsigned int num)
 {
 	int count = 0;
@@ -16,6 +24,14 @@ int len_unsigned_number(unsigned int num)
 
 	return (count);
 }
+
+/**
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
 
 void fun_unsigned_number(unsigned int num)
 {
