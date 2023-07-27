@@ -49,22 +49,25 @@ The _printf function supports the following format specifiers:
 
 ## Examples
 
-**#include "main.h"**
+Example:
 
-_printf("Welcome to Holberton School"); **// the output will be: Welcome to Holberton School**
+```c
+#include "main.h"
 
-_printf("%c", 'H'); // **the output will be: H**
+Example:
 
-_printf("%s", "Welcome to Holberton School"); **// the output will be: Welcome to Holberton School**
+```c
+#include "main.h"
 
-_printf("%!\n"); **// the output will be '%!'**
-
-_printf("Complete the sentence: You %s nothing, Jon Snow.\n", "know"); **// the output will be: Complete the sentence: You know nothing, Jon Snow.**
-
-_printf("%        s", "Hello"); **// the output will be: Hello**
-
-_printf("%        k"); **// the output will be: % k**
-
-## Author
+int main(void)
+{
+ _printf("Hello, %s!\n", "world");
+ _printf("Hello, %c!\n", 'w');
+_printf("Number of bytes: %d\n", 1024);
+_printf("Unsigned integer: %u\n", 12345);
+_printf("Octal: %o\n", 12345);
+		    
+return 0;
+}
 
 **_printf()** is written and maintained by **Davis Joseph** (davisjosep767@gmail.com) and **Idoudi Mokhtar** (idoudimokhtar@gmail.com).
