@@ -46,7 +46,7 @@ int main(void)
         _printf("Number of bytes: %d\n", 1024);
         _printf("Unsigned integer: %u\n", 12345);
         _printf("Octal: %o\n", 30071);
-       
+
   return 0;
 }
 
