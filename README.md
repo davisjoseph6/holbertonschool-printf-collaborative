@@ -2,8 +2,9 @@
 
 **_printf** - formatted output conversion
 
-**#include "main.h"**
-**int _printf(const char *format, ...);**
+
+
+
 
 ## Description
 
@@ -22,7 +23,7 @@ Each conversion specification is introduced by the character % and ends with con
 
 This repository contains a C program that implements a simplified version of the printf function called _printf. The _printf function allows printing formatted output to the standard output, supporting %c, %s, %d, %i, %u, %o, and %% format specifiers. The implementation uses the stdarg.h library to handle variable-length arguments.
 
-##How to Use
+## How to Use
 
 
 Include the header file `main.h` in your C source file, and compile the source files together. Then, you can use the `_printf()` function similarly to how you would use the standard `printf()` function.
