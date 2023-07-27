@@ -18,7 +18,7 @@ if (*format != '%')
 count += _putchar(*format);
 }
 else
-}
+{
 format++;
 if (*format == 'c')
 {
