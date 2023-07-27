@@ -50,25 +50,15 @@ The _printf function supports the following format specifiers:
 
 ## Examples
 
-Example:
-
-```c
 #include "main.h"
-
-Example:
-
-```c
-#include "main.h"
-
 int main(void)
 {
- _printf("Hello, %s!\n", "world");
- _printf("Hello, %c!\n", 'w');
-_printf("Number of bytes: %d\n", 1024);
-_printf("Unsigned integer: %u\n", 12345);
-_printf("Octal: %o\n", 12345);
-		    
-return 0;
+        _printf("String: [%s]\n", "Welcome to Holberton School!");
+        _printf("Character:[%c]\n", 'H');
+        _printf("Number of bytes: %d\n", 1024);
+        _printf("Unsigned integer: %u\n", 12345);
+        _printf("Octal: %o\n", 12345);
+  return 0;
 }
 
 **_printf()** is written and maintained by **Davis Joseph** (davisjosep767@gmail.com) and **Idoudi Mokhtar** (idoudimokhtar@gmail.com).
