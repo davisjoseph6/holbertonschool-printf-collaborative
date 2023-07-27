@@ -50,6 +50,8 @@ The _printf function supports the following format specifiers:
 
 ## Examples
 
+```c
+
 #include "main.h"
 int main(void)
 {
