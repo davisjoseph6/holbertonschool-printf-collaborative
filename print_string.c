@@ -1,5 +1,13 @@
 #include "main.h"
 
+/**
+ * 
+ * 
+ *
+ * 
+ * 
+ */
+
 int print_string(char *str)
 {
 	int i = 0;
