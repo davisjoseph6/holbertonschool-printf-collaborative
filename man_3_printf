@@ -38,14 +38,24 @@ To print a string and a character:
 .nf
 .RS
 #include "main.h"
+
 int main(void)
 {
-	_printf("String: [%s]\n", "Welcome to Holberton School!");
-	_printf("Character:[%c]\n", 'H');
+        _printf("String: [%s]\n", "Welcome to Holberton School!");
+        _printf("Character:[%c]\n", 'H');
+        _printf("Number of bytes: %d\n", 1024);
+        _printf("Unsigned integer: %u\n", 12345);
+        _printf("Octal: %o\n", 12345);
+       
+  return 0;
 }
+
 Output :
 String:[Welcome to Holberton School!]
 Character:[H]
+Number of bytes: 1024
+Unsigned integer:12345
+Octal:12345
 .RE
 .fi
 .PP
