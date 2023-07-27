@@ -7,21 +7,23 @@ int i = 0;
 
 
 if (num == 0)
-return 1;
+return (1);
 
 if (num == 0)
-return 1;
+return (1);
 
 
-if (num < 0) {
+if (num < 0)
+{
 i++;
 num = -num;
 }
-while (num > 0) {
+while (num > 0)
+{
 i++;
 num /= 10;
 }
- return (i);
+return (i);
 }
 void fun_number(int num)
 {
