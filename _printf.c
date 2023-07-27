@@ -59,14 +59,15 @@ int _printf(const char *format, ...)
 
 	  else if (*format == 'o')
 	  {
-	  unsigned int num = va_arg(args, unsigned int);
+	unsigned int num = va_arg(args, unsigned int);
 	  count += len_octal_number(num);
 	  fun_octal_number(num);
 	  }
-
-	  else
+	  
+	else
 	    {
-	      count += _putchar(*format);
+	      count += _putchar('%');
+	      continue;
 	    }
 	}
       format++;
