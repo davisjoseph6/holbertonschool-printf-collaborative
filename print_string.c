@@ -13,10 +13,11 @@ int print_string (char *str)
       _putchar('l');
       _putchar(')');
     }
-  while (str[i] )
+  while (*str)
  
     {
-      putchar(str[i++]);
+      i += _putchar(*str);
+      i++;
  
     }
   return (i);
