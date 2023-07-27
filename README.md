@@ -59,12 +59,9 @@ int main(void)
         _printf("Character:[%c]\n", 'H');
         _printf("Number of bytes: %d\n", 1024);
         _printf("Unsigned integer: %u\n", 12345);
-        _printf("Octal: %o\n", 12345);
+        _printf("Octal: %o\n", 30071);
   return 0;
 }
 
 **_printf()** is written and maintained by **Davis Joseph** (davisjosep767@gmail.com) and **Idoudi Mokhtar** (idoudimokhtar@gmail.com).
 
-<p align="center">
-  <a href="https://www.holbertonschool.com/"target="_blank"><img src="https://user-images.githubusercontent.com/97880395/181658846-6e76edce-7d56-4abe-8c62-228479bde436.png" </a>
-      </p>
