@@ -3,7 +3,7 @@
 **_printf** - formatted output conversion
 
 **#include "main.h"**
-**int _printf(const char** *format* **, ...);**
+**int _printf(const char *format, ...);**
 
 ## Description
 The **_printf()** function produce output according to a *format* as described below. Also, write output to *stdout*, the standard output stream.
