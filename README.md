@@ -11,8 +11,7 @@
 
 
 
-## Description
-
+## `Description`
 
 The  **_printf()** function write the output under the control of a format string that specifies how subsequent arguments (or arguments accessed via the variable-length argument facilities of ***stdarg(3)*** are converted for output.
 
@@ -28,8 +27,17 @@ Each conversion specification is introduced by the character % and ends with con
 
 This repository contains a C program that implements a simplified version of the printf function called _printf. The _printf function allows printing formatted output to the standard output, supporting %c, %s, %d, %i, %u, %o, and %% format specifiers. The implementation uses the stdarg.h library to handle variable-length arguments.
 
-## How to Use
+## `Requeriments`
 
+All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
+
+To compile the _printf, run:, execute:
+```bash
+gcc -Wall -Wextra -Werror -pedantic -std=gnu89 -Wno-format *.c
+```
+
+
+## `How to Use`
 
 Include the header file `main.h` in your C source file, and compile the source files together. Then, you can use the `_printf()` function similarly to how you would use the standard `printf()` function.
 
