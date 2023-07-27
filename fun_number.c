@@ -1,6 +1,14 @@
 #include "main.h"
 #include <stdio.h>
 
+/**
+ * 
+ * 
+ *
+ * 
+ * 
+ */
+
 int len_number(int num)
 
 {
@@ -26,6 +34,14 @@ int len_number(int num)
 
 	return (i);
 }
+
+/**
+ * 
+ * 
+ *
+ * 
+ * 
+ */
 
 void fun_number(int num)
 
