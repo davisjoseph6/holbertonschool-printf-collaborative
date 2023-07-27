@@ -17,7 +17,7 @@ int print_string (char *str)
  
     {
       i += _putchar(*str);
-      i++;
+      str++;
  
     }
   return (i);
