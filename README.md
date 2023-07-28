@@ -76,7 +76,7 @@ int main(void)
         _printf("Octal: %o\n", 30071);
   return 0;
 }
-
+```c
 **_printf()** is written and maintained by **Davis Joseph** (davisjosep767@gmail.com) and **Idoudi Mokhtar** (idoudimokhtar@gmail.com).
 
 
