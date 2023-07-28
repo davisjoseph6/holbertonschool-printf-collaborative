@@ -49,6 +49,14 @@ The provided code is a custom implementation of the _printf function, but it's m
 ## `Function Signature`
 * ``` int _printf(const char *format, ...);```
 
+
+## `flowchart`
+<div style="text-align:center"><img src="https://zupimages.net/up/23/30/7qvw.jpg" /></div>
+
+
+
+
+
 ## `Format Specifiers`
 
 
@@ -76,9 +84,7 @@ int main(void)
         _printf("Octal: %o\n", 30071);
   return 0;
 }
-```c
+
 **_printf()** is written and maintained by **Davis Joseph** (davisjosep767@gmail.com) and **Idoudi Mokhtar** (idoudimokhtar@gmail.com).
 
 
-## `flowchart`
-<div style="text-align:center"><img src="https://zupimages.net/up/23/30/7qvw.jpg" /></div>
