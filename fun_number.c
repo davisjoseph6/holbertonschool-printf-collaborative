@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * 
- * 
- *
+ * This function calculates the length of an integer num when represented as a string.
+ * It takes an integer num as an input parameter.
+ * The function returns an integer representing the length of the number.
  * 
  * 
  */
@@ -36,9 +36,9 @@ int len_number(int num)
 }
 
 /**
- * 
- * 
- *
+ * This function prints the digits of an integer num to the standard output (console).
+ * It takes an integer num as an input parameter but doesn't return any value (void return type).
+ * The function recursively calls itself to print each digit of the number.
  * 
  * 
  */
