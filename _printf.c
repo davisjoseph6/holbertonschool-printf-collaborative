@@ -80,7 +80,7 @@ int _printf(const char *format, ...)
 			else
 			{
 				count += _putchar('%');
-				continue;
+					continue;
 			}
 		}
 
@@ -88,5 +88,5 @@ int _printf(const char *format, ...)
 	}
 
 	va_end(args);
-	return (count);
+		return (count);
 }
