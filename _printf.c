@@ -25,7 +25,8 @@ int _printf(const char *format, ...)
 	{
 		count += _putchar(*format);
 	}
-	else
+
+		else
 	{
 		format++;
 
@@ -74,6 +75,7 @@ int _printf(const char *format, ...)
 			count += len_octal_number(num);
 			fun_octal_number(num);
 		}
+
 		else
 		{
 			count += _putchar('%');
