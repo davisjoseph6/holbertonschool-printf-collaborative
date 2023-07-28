@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * This function calculates the lenght of the number of digits in the octal representation of an unsigned integer num.
+ * len_octal_number - This function calculates the lenght of the number of digits in the octal representation of an unsigned integer num.
  * It takes an unsigned integer num as an input parameter.
  * 
  * 
@@ -26,7 +26,7 @@ int len_octal_number(unsigned int num)
 }
 
 /**
- * This function prints the octal representation of an unsigned integer num.
+ * fun_octal_number - This function prints the octal representation of an unsigned integer num.
  * 
  * The function recursively calls itself to print each digit of the octal representation.
  * Return: octal number
