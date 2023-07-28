@@ -26,10 +26,10 @@ int len_unsigned_number(unsigned int num)
 }
 
 /**
- * This function prints the decimal representation of an unsigned integer num to the standard output (console).
- * It takes an unsigned integer num as an input parameter but doesn't return any value (void return type).
- * The function recursively calls itself to print each digit of the decimal representation.
+ * This function that calculates the length of a unsigned number
  * 
+ * The function recursively calls itself to print each digit of the decimal representation.
+ * Return unsigned number.
  * 
  */
 
