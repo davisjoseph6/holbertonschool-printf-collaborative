@@ -7,7 +7,7 @@
  * _printf - function my printf
  * @format: string whit format to print
  *
- * Return: number of chars that print
+ * Return: count
  */
 
 int _printf(const char *format, ...)
