@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * 
- * 
- *
+ * This function calculates the number of digits in the octal representation of an unsigned integer num.
+ * It takes an unsigned integer num as an input parameter.
+ * The function returns an integer representing the number of digits in the octal representation of num.
  * 
  * 
  */
@@ -26,9 +26,9 @@ int len_octal_number(unsigned int num)
 }
 
 /**
- * 
- * 
- *
+ * This function prints the octal representation of an unsigned integer num to the standard output (console).
+ * It takes an unsigned integer num as an input parameter but doesn't return any value (void return type).
+ * The function recursively calls itself to print each digit of the octal representation.
  * 
  * 
  */
