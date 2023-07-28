@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * This function calculates the length of an integer num when represented as a string.
+ * This function that calculates the length of a number.
  * It takes an integer num as an input parameter.
  * The function returns an integer representing the length of the number.
  * 
