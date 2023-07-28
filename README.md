@@ -51,7 +51,7 @@ The provided code is a custom implementation of the _printf function, but it's m
 
 
 ## `flowchart`
-<div style="text-align:center"><img src="https://zupimages.net/up/23/30/7qvw.jpg" /></div>
+<div style="text-align:center"><img src="https://zupimages.net/up/23/30/7qvw.jpg" width=60% height=60% /></div>
 
 
 
