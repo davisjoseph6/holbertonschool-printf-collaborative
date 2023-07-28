@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * This function is responsible for printing a given string str. 
+ * print_string - This function is responsible for printing a given string str. 
  * It takes a pointer to a character array (char*) as an input parameter.
- * The function returns an integer representing the total number of characters printed.
  * 
+ * Return: string
  * 
  */
 
@@ -14,14 +14,7 @@ int print_string(char *str)
 
 	if (str == NULL)
 	{
-		/*
-		 * _putchar('(');
-		_putchar('n');
-		_putchar('u');
-		_putchar('l');
-		_putchar('l');
-		_putchar(')');
-		*/
+		
 
 		str = "(null)";
 	}
