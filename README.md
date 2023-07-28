@@ -79,3 +79,8 @@ int main(void)
 
 **_printf()** is written and maintained by **Davis Joseph** (davisjosep767@gmail.com) and **Idoudi Mokhtar** (idoudimokhtar@gmail.com).
 
+
+## `flowchart`
+
+[printf diagram.pdf](https://github.com/idoudi2020/holbertonschool-printf/files/12193412/printf.diagram.pdf)
+
