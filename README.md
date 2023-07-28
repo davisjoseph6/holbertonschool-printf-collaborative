@@ -81,6 +81,8 @@ int main(void)
 
 
 ## `flowchart`
+![printf diagram_page-0001](https://github.com/idoudi2020/holbertonschool-printf/assets/124044887/c87e2b97-e13c-4051-a2ff-1a45aea81c8d)
 
-[printf diagram.pdf](https://github.com/idoudi2020/holbertonschool-printf/files/12193412/printf.diagram.pdf)
-
+<p align="center">
+<img src="https://user-images.githubusercontent.com/124044887/256537628-75705fa9-c22e-4afa-b5dd-3b931ac3e3c6.jpeg"/>
+       </p>
